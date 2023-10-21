@@ -14,9 +14,16 @@ body {
 }
 .grid-container {
     display: grid;
-    height: 50vh;
-    width: 100% ;
-    grid-template-rows: 0.3fr auto 1/3fr;
+    height: 100vh;
+    width: 100vw ;
+    grid-template-rows: 238px 1fr ;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+   /*  grid-area: 
+    "media media media"
+    "main main main"
+    "footer footer footer"; */
+    
+   
 
 }
 /* main {
@@ -32,15 +39,16 @@ header {
 }
 .menu {
     overflow: hidden;
-    background-color: #32414b;  
+    background-color: #1b1a6d;  
+    
 }
 .menu a {
     float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
+    display: block;
+    color: crimson;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 ul {   
     width: 50%;
@@ -81,7 +89,7 @@ h3 {
     border-radius: 0 0 3% 3%;
 }
 .news {
-    display: grid;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -116,25 +124,6 @@ footer {
     height: 36px;
     text-align: center;
 }
-/* .foot {
-    font-family: 'Poppins', sans-serif;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-.footi {
-    text-align: center;
-    margin: 50px 30px ;
-    height: 50px;
-
-}
-.logos {
-  width:  45px;
-  align-items: flex-end;
-  margin-left: 20vw;
-  margin-top: 20px;
-}  */
 .mapa {
     display: grid;
     height: 50vh;
@@ -187,11 +176,15 @@ body {
 }
 
 @media (max-width: 768px){
+    .grid-container {
+        display: grid;
+        grid-template-rows: 1fr 1fr ;   
+    }
     body {
         display: grid;
         background-color: orange;
-        width: 100vh;
-        height: 80%; 
+        width: 768px;
+        height: 768px; 
     } 
     ul {
         width: 120%;
@@ -203,6 +196,8 @@ body {
     }
     .media {
         display: grid;
+        height: 306px;
+        width: 768px;
        }
     .logo  {
         display: grid   ;
@@ -221,15 +216,17 @@ body {
         text-decoration: none;
 
     }
+    /* .news {
+        display: flex;
+    }
+    .new-cards {
+        display: flex;
+    } */
 
     
     main {
         height: 100%;
         width: 100%;
-    }
-    .grid-container {
-        display: grid;
-        grid-template-rows: 0.3fr auto 0.3fr;
     }
     .main-galeria {
         background-color: black ;
@@ -239,7 +236,7 @@ body {
     }
     .media-news {
         display: grid;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;    
     }
