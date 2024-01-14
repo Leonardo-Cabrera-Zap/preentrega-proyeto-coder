@@ -51,7 +51,7 @@
 }
 header {
     display: flex;
-    background-color: rgb(98, 0, 255);
+    background-color: #6200ff;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -69,6 +69,13 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.navbar-brand {
+    background-color: cyan;
+}
+.collapse {
+  background-color: cyan;
 }
 
 ul {   
@@ -138,7 +145,7 @@ h2, h3 {
 footer {
     display: grid;
     height: 36px;
-    background-color: crimson;
+    background-color: #6200ff;
 }
 
 .derechos {
@@ -208,7 +215,7 @@ footer {
       width: 100%;
       height: 100%; 
   } 
-  ul {
+/*   ul {
     display: grid;
     width: 100%;
     height: 100%;
@@ -216,7 +223,7 @@ footer {
     font-weight: 200px;
     color: #32414b;
     
-  }
+  } */
   .media {
     display: flex;
    /*  grid-template-rows: 1fr; */
@@ -231,6 +238,7 @@ footer {
     align-items: start;
     height: 100%;
   }
+
   .media-menu {
     overflow: hidden;
     background-color: #32414b;
