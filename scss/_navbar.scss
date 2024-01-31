@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    background-color: $mainColor;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    .bg-body-tertiary {
+        background-color: $mainColor !important;
+    }
+    
+    .container-fluid {
+        background-color: $mainColor;
+    }
+    .navbar-nav {
+        background-color: $mainColor;
+    }
+    .logo {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    
+    .img {
+        width: 100%;
+        height: 220px;
+        border-radius: 0 0 3% 3%;
+    }
+}

@@ -1,0 +1,27 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.new-cards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.card {
+    display: grid;
+    width: 350px;
+    border: 1px solid gray;
+    border-radius: 0 0 3% 3%;
+    margin: 10px;
+        p {
+            h2 {
+                h3 {
+                    text-align: center;
+                    margin: 5px 3px;
+                
+                }
+            }
+        }
+} 
