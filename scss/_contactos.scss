@@ -1,0 +1,24 @@
+.iframe-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    height: 315px;
+    width: 100%;
+}
+
+.derechos {
+    height: 36px;
+    text-align: center;
+}
+
+.mapa {
+    display: grid;
+    height: 50vh;
+    width: 50vh;
+    margin: 5px 30px 15px 15px;
+}
+
+#up-map {
+    display: inline-block;
+}
